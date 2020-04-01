@@ -1,0 +1,473 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    color: -internal-root-color;
+}
+
+
+}
+body, input, select, textarea {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    font-weight: 300;
+    line-height: 1.65;
+}
+body {
+    background-color: #1b1b1b;
+    color: rgba(255, 255, 255, 0.75);
+
+
+    -webkit-text-size-adjust: none;
+
+
+    line-height: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0 0 1em 0;
+    text-transform: uppercase;
+}
+ 
+section {
+    display: block;
+}
+
+
+
+#header {
+    background-color: transparent;
+    color: #fdd1d1;
+    cursor: default;
+    height: 3.25em;
+    left: 0;
+    line-height: 3.25em;
+    position: fixed;
+    text-align: right;
+    top: 1em;
+    width: 100%;
+    z-index: 10001;
+    padding: 0 1.5em;
+}
+#header .logo {
+    display: inline-block;
+    height: inherit;
+    left: 1.5em;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+}
+
+#header .logo a {
+    font-size: 1.25em;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+#header > a[href="#menu"] {
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 100%;
+    height: 2.5em;
+    width: 2.5em;
+    line-height: 2.5em;
+    color: #FFF;
+    text-align: center;
+}
+#header > a {
+    -moz-transition: color 0.2s ease-in-out;
+    -webkit-transition: color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+}
+
+
+#banner {
+    display: -ms-flexbox;
+    -ms-flex-pack: center;
+    -ms-flex-align: center;
+    padding: 8em 0 6em 0;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-top: 0;
+    min-height: 100vh;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+#banner{
+    -moz-transition: opacity 3s ease;
+    -webkit-transition: opacity 3s ease;
+    -ms-transition: opacity 3s ease;
+    transition: opacity 3s ease;
+    -moz-transition-delay: 1.25s;
+    -webkit-transition-delay: 1.25s;
+    -ms-transition-delay: 1.25s;
+    transition-delay: 1.25s;
+    content: '';
+    display: block;
+    background-color: #000;
+    height: 100%;
+    left: 0;
+    opacity: 0.45;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    }
+
+#banner .inner {
+    -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    transform: scale(1.0);
+    -moz-transition: opacity 1s ease, -moz-transform 1s ease;
+    -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+    -ms-transition: opacity 1s ease, -ms-transform 1s ease;
+    transition: opacity 1s ease, transform 1s ease;
+    opacity: 1;
+    position: relative;
+    z-index: 2;
+}
+.inner {
+    width: 80em;
+}
+#banner h1 {
+    font-size: 7em;
+    line-height: 1.1;
+    font-family: "Lobster", cursive;
+    margin-bottom: .25em;
+    color: rgba(255, 255, 255, 0.75);
+    text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.125);
+    text-transform: none;
+}
+
+element .style{
+    background-image: url(images/banner2.jpg);
+}
+article {
+    display: block;
+}
+ 
+
+.post {
+    display: -ms-flexbox;
+    -ms-flex-pack: center;
+    -ms-flex-align: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-top: 0;
+    min-height: 100vh;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.wrapper {
+    padding: 6em 0;
+    position: relative;
+}
+
+
+
+.post .inner.current {
+    opacity: 1;
+}
+
+.post .inner {
+    -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    transform: scale(1.0);
+    -moz-transition: opacity 1.25s ease, -moz-transform 1s ease;
+    -webkit-transition: opacity 1.25s ease, -webkit-transform 1s ease;
+    -ms-transition: opacity 1.25s ease, -ms-transform 1s ease;
+    transition: opacity 1.25s ease, transform 1s ease;
+    opacity: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.post .box {
+    margin: 0;
+}
+.box {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    margin-bottom: 2em;
+    overflow: hidden;
+    padding:4em;
+}
+header {
+    display: block;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.content p {
+    margin: 0 0 2em 0;
+}
+
+.box> :last-child{
+    margin-bottom: 0;
+}
+.more-scrolly a{
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
+    color: #fff !important;
+
+}
+input[type="submit"].alt, input[type="reset"].alt, input[type="button"].alt, button.alt, .button.alt {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
+    color: #fff !important;
+}
+input[type="submit"], input[type="reset"], input[type="button"], button, .button {
+    background-color: #5a5a5a;
+    color: #ffffff !important;
+}
+input[type="submit"], input[type="reset"], input[type="button"], button, .button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    height: 2.85em;
+    line-height: 2.95em;
+    padding: 0 1.5em;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+a {
+    color: #F64747;
+
+    text-decoration: underline;
+}
+
+element .style{
+    background-image: url(images/banner3.jpg);
+
+}
+element .style{
+    background-image: url(images/banner4.jpg);
+
+}
+
+element .style{
+    background-image: url(images/banner5.jpg);
+
+}
+#footer {
+    background-color: #F64747;
+    color: #fdd1d1;
+    padding: 6em 0 4em 0;
+    background: #F64747;
+}
+.inner {
+    width: 60em;
+}
+#footer h2 {
+    margin-bottom: 2em;
+    text-align: center;
+}
+#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
+    color: #ffffff;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+}
+h2 {
+    font-size: 1.75em;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0 0 1em 0;
+    text-transform: uppercase;
+}
+#footer h2 {
+    margin-bottom: 2em;
+    text-align: center;
+}
+#footer .inner {
+    margin: 0 auto;
+}
+.inner {
+    width: 60em;
+}
+
+form{
+    display: block;
+}
+
+ form {
+    margin: 0 0 2em 0;
+}
+    
+form .field.half.first {
+    margin-right: 3%;
+}
+form .field.half {
+    display: inline-block;
+    width: 48%;
+}
+form .field {
+    margin-bottom: 1.5em;
+}
+
+#footer label {
+    color: #ffffff;
+}
+
+
+label {
+    color: #fff;
+}
+label {
+    display: block;
+    font-size: 0.9em;
+    font-weight: 300;
+    margin: 0 0 1em 0;
+}
+#footer input[type="text"], #footer input[type="password"], #footer input[type="email"], #footer select, #footer textarea {
+    background: rgba(255, 255, 255, 0.075);
+    border-color: rgba(255, 255, 255, 0.25);
+}
+#footer input, #footer select, #footer textarea {
+    color: #ffffff;
+}
+input[type="text"], input[type="password"], input[type="email"], select, textarea {
+    background: rgba(144, 144, 144, 0.075);
+    border-color: rgba(144, 144, 144, 0.25);
+}
+input[type="text"], input[type="password"], input[type="email"], select {
+    height: 2.75em;
+}
+input[type="text"], input[type="password"], input[type="email"], select, textarea {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    border-radius: 4px;
+    border: none;
+    border: solid 1px;
+    color: inherit;
+    display: block;
+    outline: 0;
+    padding: 0 1em;
+    text-decoration: none;
+    width: 100%;
+}
+input, select, textarea {
+    color: #fff;
+}
+form .field.half {
+    display: inline-block;
+    width: 48%;
+}
+form .field {
+    margin-bottom: 1.5em;
+}
+form .field {
+    margin-bottom: 1.5em;
+}
+#footer .icons {
+    text-align: center;
+    padding-top: 1em;
+}
+ul.icons {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+}
+ul {
+    list-style: disc;
+    margin: 0 0 2em 0;
+    padding-left: 1em;
+}
+ol, ul {
+    list-style: none;
+}
+#footer .copyright {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8em;
+    margin: 0 0 2em 0;
+    padding: 0;
+    text-align: center;
+}
